@@ -8,10 +8,24 @@ body {
 .header {
   background-color: #1f2937;
   display: flex;
-  flex: 0;
-  flex-direction: row;
   justify-content: space-between;
+  flex-shrink: 0;
   color: #FFFFFF;
+}
+
+.logo{
+  align-self: center;
+  justify-self: flex-start;
+  font-weight: 700;
+  font-size: 20px;
+  margin-left: 100px;
+}
+
+.right-links{
+  justify-self: flex-end;
+  align-items: flex-end;
+  padding: 10px;
+  margin-right: 100px;
 }
 
 .button {
@@ -29,11 +43,22 @@ body {
   justify-items: flex-start;
 }
 
-.right-links{
-  justify-self: flex-end;
-  padding: 10px;
-  margin-right: 50px;
+.information{
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.img-container{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
 }
 .information p{
   font-weight: 800;
+}
+
+img {
+  max-width: 200px;
+  max-height: 250px;
 }
