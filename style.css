@@ -8,5 +8,32 @@ body {
 .header {
   background-color: #1f2937;
   display: flex;
+  flex: 0;
+  flex-direction: row;
   justify-content: space-between;
+  color: #FFFFFF;
+}
+
+.button {
+  border-radius: 10px;
+  background-color: #64A7FF;
+  color: white;
+  font-weight: 700;
+  padding: 10px;
+  border: none;
+}
+
+.top {
+  background-color: #1f2937;
+  color: #FFFFFF;
+  justify-items: flex-start;
+}
+
+.right-links{
+  justify-self: flex-end;
+  padding: 10px;
+  margin-right: 50px;
+}
+.information p{
+  font-weight: 800;
 }
