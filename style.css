@@ -1,9 +1,13 @@
+
+
 body {
   min-height: 150vh;
   display: flex;
   flex-direction: column;
   justify-content: space-between;
   border: none;
+  margin: 0px;
+  padding: 0px;
 }
 
 .header {
@@ -52,6 +56,8 @@ a.links {
   justify-items: flex-start;
 }
 
+
+
 .top-button{
 margin-left: 20px;
 margin-bottom: 20px;
@@ -98,6 +104,29 @@ img {
 .bio-p{
   max-width: 500px;
 }
+
+.bottom-sign-up{
+  display: flex;
+  flex-grow: 1;
+  justify-content: center;
+}
+
+.button-container {
+  display: flex;
+  background-color: #64A7FF;
+  flex-grow: .5;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px;
+  margin: 50px;
+  color:#FFFFFF;
+}
+
+.button-container .button{
+  border: solid #FFFFFF 1px;
+  flex-direction: flex-end;
+}
+
 .footer {
   display: flex;
   background-color: #1f2937;
