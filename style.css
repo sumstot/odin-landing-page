@@ -1,8 +1,9 @@
 body {
-  min-height: 100vh;
+  min-height: 150vh;
   display: flex;
   flex-direction: column;
   justify-content: space-between;
+  border: none;
 }
 
 .header {
@@ -16,16 +17,24 @@ body {
 .logo{
   align-self: center;
   justify-self: flex-start;
-  font-weight: 700;
-  font-size: 20px;
-  margin-left: 100px;
+  background-color: #1f2937;
+}
+
+.head-logo{
+  max-width: 64px;
+  max-height: 80px;
+  padding: 20px;
+  border: none;
 }
 
 .right-links{
   justify-self: flex-end;
-  align-items: flex-end;
-  padding: 10px;
-  margin-right: 100px;
+  padding: 20px;
+
+}
+
+a.links {
+  margin: 10px;
 }
 
 .button {
@@ -43,6 +52,11 @@ body {
   justify-items: flex-start;
 }
 
+.top-button{
+margin-left: 20px;
+margin-bottom: 20px;
+}
+
 .information{
   display: flex;
   flex-direction: column;
@@ -57,9 +71,40 @@ body {
 .info-paragraph{
   font-weight: 800;
   align-self: center;
+  font-size: 36px;
+  font-weight: 900;
 }
 
 img {
   max-width: 200px;
   max-height: 250px;
+  border-radius: 5px;
+  border: solid 2px red;
+}
+
+.bio-container {
+  display: flex;
+  flex-direction: column;
+  flex-grow: 1;
+  background-color: #E5E7EB;
+}
+
+.bio {
+  align-self: center;
+  justify-self: center;
+  font-size: 36px;
+  font-style: italic;
+}
+.bio-p{
+  max-width: 500px;
+}
+.footer {
+  display: flex;
+  background-color: #1f2937;
+  color: #e5e5e5;
+  height: 50px;
+  justify-content: center;
+  align-items: center;
+  margin: 0px;
+  font-size: 24px;
 }
